@@ -1,16 +1,20 @@
-# Lab 9 - Well-Equipped
+# Lab 9 – Take Control: The PID Feedback Controller 
 
 # By: Lily Shlaug and Noah Lane
 # Summary
 Lab goal; summary of work performed; summary of outcome
 
 # Materials
-List materials used in the lab (not the testing equipment, but that used to build the lab project)
+1. Sparkfun Inventors Kit  
+2. Computer running Arduino IDE  
 # Assembly Procedures
-Provide basic summary of steps performed in lab (Do not copy and paste from lab assignment.) The important part here is to provide detail that you had to develop in the lab which will be more important in later labs.
+1. Build __Circuit 5C: Autonomous Robot__ from the Sparkfun Inventors Guidebook without the switch  
+![image](https://github.com/npla225/BAE305-SP24-Lab9/assets/156371043/d6559943-b997-4331-a037-47834da85006)  
+**Figure 1: Circuit 5C schematic**
 
 # Test Equipment
-List multimeters and other equipment used for testing and creating results.
+1. Ruler
+2. Wooden Plank  
 # Test Procedures
 How did you test the system to get your results
 # Test Results
@@ -18,3 +22,7 @@ What are your results?
 # Discussion
 Did you make any design decisions that had an impact on the results? How did they impact the results? What do the results mean?
 # Conclusion
+
+# References
+Figure 1
+ 
