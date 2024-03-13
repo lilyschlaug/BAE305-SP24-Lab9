@@ -24,5 +24,5 @@ Did you make any design decisions that had an impact on the results? How did the
 # Conclusion
 
 # References
-Figure 1
- 
+**Figure 1**  
+JOEL_E_B. “Sparkfun Inventor’s Kit Experiment Guide - v4.0.” SparkFun Inventor’s Kit Experiment Guide - v4.0 - SparkFun Learn, learn.sparkfun.com/tutorials/sparkfun-inventors-kit-experiment-guide---v40/circuit-5c-autonomous-robot. Accessed 5 Mar. 2024.
