@@ -1,6 +1,6 @@
 # Lab 9 – Take Control: The PID Feedback Controller 
 
-# By: Lily Shlaug and Noah Lane
+# By: Lily Schlaug and Noah Lane
 # Summary
 Lab goal; summary of work performed; summary of outcome
 
