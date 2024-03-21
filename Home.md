@@ -26,9 +26,19 @@ This lab implemented a feedback controller to the robot that was built in a prev
 2. Wooden Plank  
 
 # Test Procedures
-How did you test the system to get your results
+Part 1 - PID Use 
+1. Open Arduino IDE and install the PID_V2 Library.
+2. Open the previous robot sketch, and make the following modifications: 
+- include PID library
+- create variables setpoint, measurement, output, Kp, Ki, Kd as double. 
+- initialize the PID within the setup function
+- within the loop, run the PID after obtaining the distance 
+- write the setpoint, measurement and output values to the serial monitor to help verify operation 
 
 # Test Results
+Part 1 - PID Use 
+1. The result of part 1 modified the Arduino sketch to implement the PID controller and detect a distance through the ultrasonic sensor. 
+
 What are your results?
 
 # Discussion
