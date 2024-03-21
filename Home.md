@@ -34,6 +34,10 @@ Part 1 - PID Use
 - initialize the PID within the setup function
 - within the loop, run the PID after obtaining the distance 
 - write the setpoint, measurement and output values to the serial monitor to help verify operation 
+
+Part 2 - Keep your Distance
+1. write a function to instruct the robot to move forward or backward depending on the measured distance. 
+2. tune the system by modifiying Kp, Ki, and Kd. Use the ruler to measure the actual distance with the reported distance and adjust the values. 
 ```
 /*
   SparkFun Inventor’s Kit
@@ -255,17 +259,12 @@ void leftMotor(int motorSpeed)                        //function for driving the
 }
 ```
 
-Part 2 - Keep your Distance
-
-
 # Test Results
 Part 1 - PID Use 
 1. The result of part 1 modified the Arduino sketch to implement the PID controller and detect a distance through the ultrasonic sensor.    
 Part 2 - Keep your Distance   
-1. The result of 
+1. The result of part two is to implement the PID controller into the robot movement so that if an object is in front, the robot will move forward or backwards to maintain the specified distance. 
 
-# Discussion
-Did you make any design decisions that had an impact on the results? How did they impact the results? What do the results mean?
 # Conclusion
 
 # References
