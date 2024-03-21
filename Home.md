@@ -5,8 +5,16 @@
 This lab implemented a feedback controller to the robot that was built in a previous lab. The goal of this lab was to create a system that would detect objects at a specified distance and stop the robot from moving forward into the object. The robot continuously checked for an object, so that if the obstacle was removed the robot would begin to move forward again. This was achieved through detection with the ultrasonic sensor. A proportional-integral-derivative (PID) controller was implemented and required tuning to act as the feedback controller of the system. The outcome of this lab was that the robot automatically moved backwards or forwards, depending on the feedback from the controller about how far away the object was detected. 
 
 # Materials
-1. Sparkfun Inventors Kit  
+1. Sparkfun Inventors Kit 
+- RedBoard
+- Ultrasonic sensor
+- Two Motors
+- Motor Driver 
+- Battery pack
 2. Computer running Arduino IDE  
+3. Smart phone running an Android OS with the MIT AI2 Companion app installed
+4. Cable/adaptor to connect the smart phone to the RedBoard.
+5. HC-05 Bluetooth UART Module
 
 # Assembly Procedures
 1. Build __Circuit 5C: Autonomous Robot__ from the Sparkfun Inventors Guidebook without the switch  
@@ -22,6 +30,7 @@ How did you test the system to get your results
 
 # Test Results
 What are your results?
+
 # Discussion
 Did you make any design decisions that had an impact on the results? How did they impact the results? What do the results mean?
 # Conclusion
