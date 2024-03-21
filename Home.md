@@ -267,7 +267,7 @@ Part 2 - Keep your Distance
 1. The result of part two is to implement the PID controller into the robot movement so that if an object is in front, the robot will move forward or backwards to maintain the specified distance. 
 
 # Conclusion
-
+When using a PID controller in a system such as the ultrasonic robot, the tuning of the KP,KI, and KD errors determine how consistent the output result, in this case staying the set distance away from the wall, is. Before tuning, the robot would oscillate over a much larger distance from the setpoint, +/- 2 inches from the 8 inch setpoint. But after tuning the robot was nearly stationary, oscillating over +/- 2 centimeters. If you were to apply this principle to a large factory setting, not properly tuning the PID controller can result in substantial losses of resources, energy, quality of the product, etc., demonstrating how important it is to adjust the controller to generate as minimal of an error as possible in order to obtain accurate results/outputs.  
 # References
 **Figure 1**  
 JOEL_E_B. “Sparkfun Inventor’s Kit Experiment Guide - v4.0.” SparkFun Inventor’s Kit Experiment Guide - v4.0 - SparkFun Learn, learn.sparkfun.com/tutorials/sparkfun-inventors-kit-experiment-guide---v40/circuit-5c-autonomous-robot. Accessed 5 Mar. 2024.
