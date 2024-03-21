@@ -262,6 +262,7 @@ void leftMotor(int motorSpeed)                        //function for driving the
 # Test Results
 Part 1 - PID Use 
 1. The result of part 1 modified the Arduino sketch to implement the PID controller and detect a distance through the ultrasonic sensor.    
+
 Part 2 - Keep your Distance   
 1. The result of part two is to implement the PID controller into the robot movement so that if an object is in front, the robot will move forward or backwards to maintain the specified distance. 
 
