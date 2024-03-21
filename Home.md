@@ -2,11 +2,12 @@
 
 # By: Lily Schlaug and Noah Lane
 # Summary
-Lab goal; summary of work performed; summary of outcome
+This lab implemented a feedback controller to the robot that was built in a previous lab. The goal of this lab was to create a system that would detect objects at a specified distance and stop the robot from moving forward into the object. The robot continuously checked for an object, so that if the obstacle was removed the robot would begin to move forward again. This was achieved through detection with the ultrasonic sensor. A proportional-integral-derivative (PID) controller was implemented and required tuning to act as the feedback controller of the system. The outcome of this lab was that the robot automatically moved backwards or forwards, depending on the feedback from the controller about how far away the object was detected. 
 
 # Materials
 1. Sparkfun Inventors Kit  
 2. Computer running Arduino IDE  
+
 # Assembly Procedures
 1. Build __Circuit 5C: Autonomous Robot__ from the Sparkfun Inventors Guidebook without the switch  
 ![image](https://github.com/npla225/BAE305-SP24-Lab9/assets/156371043/d6559943-b997-4331-a037-47834da85006)  
@@ -15,8 +16,10 @@ Lab goal; summary of work performed; summary of outcome
 # Test Equipment
 1. Ruler
 2. Wooden Plank  
+
 # Test Procedures
 How did you test the system to get your results
+
 # Test Results
 What are your results?
 # Discussion
