@@ -34,7 +34,6 @@ Part 1 - PID Use
 - initialize the PID within the setup function
 - within the loop, run the PID after obtaining the distance 
 - write the setpoint, measurement and output values to the serial monitor to help verify operation 
-
 ```
 /*
   SparkFun Inventor’s Kit
@@ -255,11 +254,15 @@ void leftMotor(int motorSpeed)                        //function for driving the
   analogWrite(PWMB, abs(motorSpeed));                 //now that the motor direction is set, drive it at the entered speed
 }
 ```
+
+Part 2 - Keep your Distance
+
+
 # Test Results
 Part 1 - PID Use 
-1. The result of part 1 modified the Arduino sketch to implement the PID controller and detect a distance through the ultrasonic sensor. 
-
-What are your results?
+1. The result of part 1 modified the Arduino sketch to implement the PID controller and detect a distance through the ultrasonic sensor.    
+Part 2 - Keep your Distance   
+1. The result of 
 
 # Discussion
 Did you make any design decisions that had an impact on the results? How did they impact the results? What do the results mean?
